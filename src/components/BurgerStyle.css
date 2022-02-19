@@ -1,0 +1,95 @@
+.burgerIngredients{
+    height: 100%;
+    width: 50%;
+    overflow: auto;
+}
+.burgerIngredients p{
+    text-align: center;
+}
+.topSide{
+    background-image: url(../assets/top.JPG);
+    background-size: 300px;
+    height: 110px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottomSide{
+    background-image: url(../assets/bottom.JPG);
+    background-size: 300px;
+    height: 60px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lettuceSide{
+    background-image: url(../assets/lettuce.JPG);
+    background-size: 300px;
+    height: 80px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-position: center;
+}
+.tomatoSide{
+    background-image: url(../assets/tomato.JPG);
+    background-size: 300px;
+    height: 95px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cheeseSide{
+    background-image: url(../assets/cheese.JPG);
+    background-size: 300px;
+    height: 65px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meatSide{
+    background-image: url(../assets/meat.JPG);
+    background-size: 300px;
+    height: 70px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ingredientsBlock{
+    margin: 30px auto 0;
+    display: table;
+    max-width: 200px;
+    width: 50%;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+.ingredientsBlock p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ingrBtns{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ingrBtn{
+    border: 0;
+    background-color: #c17116;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    display: table;
+    width: 95px;
+}

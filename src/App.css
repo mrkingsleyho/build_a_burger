@@ -1,0 +1,10 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.burgerContent{
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  margin: 5% auto 0;
+}
